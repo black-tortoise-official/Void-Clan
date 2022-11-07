@@ -4,7 +4,7 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Eraser-SG</SubtypeId>
+        <SubtypeId>Void-Zero-SG</SubtypeId>
       </Id>
       <Description>
         [Modular Encounters SpawnGroup]
@@ -18,6 +18,36 @@
       </Description>
       <IsPirate>true</IsPirate>
       <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Zero">
+          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Eraser-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eraser">
           <Behaviour>Behavior-Void-Fighter</Behaviour>
