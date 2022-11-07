@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>ManipulationGroup-Void-Default</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation Group]
+
+      [ManipulationProfiles:MES-Manipulation-RivalAi]
+      [ManipulationProfiles:Manipulation-Void-ClearAuthor]
+      [ManipulationProfiles:Manipulation-Void-DisposeBeacons]
+      [ManipulationProfiles:Manipulation-Void-HydroThrust]
+      [ManipulationProfiles:Manipulation-Void-IonThrust]
+      [ManipulationProfiles:Manipulation-Void-SmallBatteryNPC]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-ClearAuthor</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [ClearAuthorship:true]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-DisposeBeacons</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [UseBlockReplacerProfile:true]
+      [IgnoreGlobalBlockReplacer:true]
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-HydroThrust</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [UseBlockReplacerProfile:true]
+      [IgnoreGlobalBlockReplacer:true]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Hydro]
+
+      [ConfigureSpecialNpcThrusters:true]
+      [NpcHydroThrustForceMultiply:1]
+      [NpcHydroThrustPowerMultiply:0.01]
+      [RestrictNpcHydroThrust:true]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-IonThrust</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [UseBlockReplacerProfile:true]
+      [IgnoreGlobalBlockReplacer:true]
+      [BlockReplacerProfileNames:MES-NpcThrusters-Ion]
+
+      [ConfigureSpecialNpcThrusters:true]
+      [NpcHydroThrustForceMultiply:1]
+      [NpcHydroThrustPowerMultiply:0.1]
+      [RestrictNpcIonThrust:true]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-SmallBatteryNPC</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [ManipulationRestrictedPrefabIndexes:0]
+
+      [UseBlockReplacerProfile:true]
+      [IgnoreGlobalBlockReplacer:true]
+      [BlockReplacerProfileNames:MES-Energy-SmallBatteryToNpcBattery]
+    </Description>
+  </EntityComponent>
+</EntityComponents>
+</Definitions>
