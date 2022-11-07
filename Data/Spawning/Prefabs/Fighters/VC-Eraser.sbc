@@ -7847,7 +7847,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>5</NumberInGrid>
-              <ContainerType>MES-ContainerTypes-AdvancedIngots-2</ContainerType>
+              <ContainerType>MES-ContainerTypes-AdvancedIngots-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <XMirroxPlane x="0" y="22" z="-8" />
