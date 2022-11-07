@@ -16,7 +16,7 @@
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:2000]
-        [ThreatScoreMinimum:70]
+        [ThreatScoreMinimum:40]
 
         [MinSpawnFromWorldCenter:-1]
         [UseSignalRequirement:false]
