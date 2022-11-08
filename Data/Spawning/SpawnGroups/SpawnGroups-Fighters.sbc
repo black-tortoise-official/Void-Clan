@@ -34,7 +34,7 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Eraser-SG</SubtypeId>
+        <SubtypeId>Void-Eliminator-SG</SubtypeId>
       </Id>
       <Description>
         [Modular Encounters SpawnGroup]
@@ -49,7 +49,67 @@
       <IsPirate>true</IsPirate>
       <Frequency>3.0</Frequency>
       <Prefabs>
+        <Prefab SubtypeId="VC-Eliminator">
+          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Eraser-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
         <Prefab SubtypeId="VC-Eraser">
+          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Nullifier-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Nullifier">
           <Behaviour>Behavior-Void-Fighter</Behaviour>
           <Position>
             <X>0.0</X>
