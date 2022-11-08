@@ -4,7 +4,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Behavior-Void-Fighter</SubtypeId>
+        <SubtypeId>Behavior-Void-Fighter-Simple</SubtypeId>
       </Id>
       <Description>
       [RivalAI Behavior]

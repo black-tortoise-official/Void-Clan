@@ -20,7 +20,7 @@
       <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Zero">
-          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -50,7 +50,7 @@
       <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eliminator">
-          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -80,7 +80,7 @@
       <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eraser">
-          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -110,7 +110,7 @@
       <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Nullifier">
-          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -140,7 +140,7 @@
       <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Empty-Enforcer">
-          <Behaviour>Behavior-Void-Fighter</Behaviour>
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
