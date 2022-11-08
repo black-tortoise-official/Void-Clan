@@ -4,7 +4,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>SpawnCondition-Void-Fighter</SubtypeId>
+        <SubtypeId>SpawnCondition-Void-Fighter-Simple</SubtypeId>
       </Id>
       <Description>
         [MES Spawn Conditions]
