@@ -120,35 +120,5 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
-
-    <SpawnGroup>
-      <Id>
-        <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Enforcer-Solo-SG</SubtypeId>
-      </Id>
-      <Description>
-        [Modular Encounters SpawnGroup]
-        
-        [FactionOverride:VOID]
-        [ReplenishSystems:true]
-        [UseFirstConditionsAsPersistent:true]
-
-        [ManipulationGroups:ManipulationGroup-Void-Default]
-        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
-      </Description>
-      <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
-      <Prefabs>
-        <Prefab SubtypeId="VC-Empty-Enforcer">
-          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
-          <Position>
-            <X>0.0</X>
-            <Y>0.0</Y>
-            <Z>0.0</Z>
-          </Position>
-          <Speed>25</Speed>
-        </Prefab>
-      </Prefabs>
-    </SpawnGroup>
   </SpawnGroups>
 </Definitions>

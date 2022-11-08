@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Behavior-Void-Horsefly-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Horsefly]
+
+      [RivalAI Weapons]
+
+      [UseStaticGuns:false]
+      [UseTurrets:true]
+
+      [UseAmmoReplenish:true]
+      [AmmoReplenishClipAmount:30]
+      [MaxAmmoReplenishments:50]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
