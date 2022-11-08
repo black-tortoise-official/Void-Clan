@@ -15,7 +15,7 @@
         [FactionOwner:VOID]
 
         [UseThreatLevelCheck:true]
-        [ThreatLevelCheckRange:2000]
+        [ThreatLevelCheckRange:300]
         [ThreatScoreMinimum:50]
 
         [MinSpawnFromWorldCenter:-1]
