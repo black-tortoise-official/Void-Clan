@@ -27,5 +27,31 @@
       [MaxAmmoReplenishments:30]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Behavior-Void-DroneFighter-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Fighter]
+
+      [RivalAI Weapons]
+
+      [UseStaticGuns:true]
+      [UseTurrets:true]
+
+      [MaxStaticWeaponRange:5000]
+      [WeaponMaxAngleFromTarget:6]
+      [WeaponMaxBaseDistanceTarget:20]
+
+      [UseBarrageFire:false]
+
+      [UseAmmoReplenish:true]
+      [AmmoReplenishClipAmount:50]
+      [MaxAmmoReplenishments:100]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

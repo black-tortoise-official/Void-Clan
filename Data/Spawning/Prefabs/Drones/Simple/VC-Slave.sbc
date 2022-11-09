@@ -590,6 +590,7 @@
               <EntityId>137563262613291607</EntityId>
               <Min x="0" y="18" z="-3" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+              <CustomName>Antenna</CustomName>
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
               <ShareMode>Faction</ShareMode>
               <ShowOnHUD>false</ShowOnHUD>
@@ -598,7 +599,7 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>9999.997</BroadcastRadius>
+              <BroadcastRadius>10000</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>

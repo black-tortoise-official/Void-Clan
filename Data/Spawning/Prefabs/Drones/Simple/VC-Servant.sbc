@@ -968,6 +968,7 @@
               <EntityId>87247076546791910</EntityId>
               <Min x="2" y="15" z="-1" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+              <CustomName>Antenna</CustomName>
               <ShareMode>Faction</ShareMode>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
@@ -975,7 +976,7 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>11999.9971</BroadcastRadius>
+              <BroadcastRadius>10000</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>

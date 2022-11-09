@@ -14,7 +14,7 @@
       [MaxDistance:850]
       [MaxSpawns:1]
       [SpawningType:SpaceCargoShip]
-      [SpawnGroups:TODO]
+      [SpawnGroups:Void-Drones-Simple-A-SG]
       [SpawnMinCooldown:3]
       [SpawnMaxCooldown:30]
       [StartsReady:true]

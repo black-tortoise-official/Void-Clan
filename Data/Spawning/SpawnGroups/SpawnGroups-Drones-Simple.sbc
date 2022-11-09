@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Drones-Simple-A-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Servant">
+          <Behaviour>Behavior-Void-DroneFighter-Simple</Behaviour>
+          <Position>
+            <X>80.0</X>
+            <Y>-20.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+
+        <Prefab SubtypeId="VC-Minion">
+          <Behaviour>Behavior-Void-DroneFighter-Simple</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+
+        <Prefab SubtypeId="VC-Slave">
+          <Behaviour>Behavior-Void-DroneFighter-Simple</Behaviour>
+          <Position>
+            <X>-80.0</X>
+            <Y>20.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>
