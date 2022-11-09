@@ -4,18 +4,22 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>Void-Action-DroneSpawn-Simple</SubtypeId>
+          <SubtypeId>Void-Spawn-Drones-Simple-A</SubtypeId>
       </Id>
       <Description>
-      [RivalAI Action]
-      
-      [UseChatBroadcast:true]
-      [ChatData:Void-ChatProfile-DroneSpawn-Simple-A]
-      
-      [SetWeaponsToMaxRange:true]
+      [RivalAI Spawn]
 
-      [SpawnEncounter:Value]
-      [Spawner:Void-Spawn-Drones-Simple-A]
+      [IgnoreSafetyChecks:false]
+      [MinDistance:550]
+      [MaxDistance:850]
+      [MaxSpawns:1]
+      [SpawningType:SpaceCargoShip]
+      [SpawnGroups:TODO]
+      [SpawnMinCooldown:3]
+      [SpawnMaxCooldown:30]
+      [StartsReady:true]
+      [UseRelativeSpawnPosition:false]
+      [UseSpawn:true]
       </Description>
     </EntityComponent>
   </EntityComponents>

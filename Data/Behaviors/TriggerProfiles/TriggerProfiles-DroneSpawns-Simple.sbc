@@ -14,7 +14,7 @@
       [StartsReady:true]
       [TargetDistance:4200]
       [Type:PlayerNear]
-      [UseTrigger:true
+      [UseTrigger:true]
       </Description>
     </EntityComponent>
   </EntityComponents>
