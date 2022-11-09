@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Void-ChatProfile-DroneSpawn-Simple-A</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Chat]
+      
+      [AllowDuplicatedMessages:false]
+      [Author:Spectral Voice]
+      [BroadcastChatType:Chat]
+      [BroadcastRandomly:false]
+      [ChatMessages:Organic life detected in {Faction} space!]
+      [ChatMessages:{GridName} to launch squadron and neutralize organic lifeforms.]
+      [Color:Red]
+      [MinTime:1]
+      [MaxTime:3]
+      [MaxChats:1]
+      [StartsReady:true]
+      [UseChat:true]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

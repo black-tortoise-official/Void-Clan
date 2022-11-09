@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Void-Trigger-DroneSpawn-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+      
+      [Actions:Void-Action-DroneSpawn-Simple]
+      [MaxActions:1]
+      [StartsReady:true]
+      [TargetDistance:4200]
+      [Type:PlayerNear]
+      [UseTrigger:true
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
