@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<EntityComponents>
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>ManipulationGroup-Void-Fighter-Squad-Names-Simple</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation Group]
+
+      [ManipulationProfiles:Manipulation-Void-Fighter-Squad-Names-Simple]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-Fighter-Squad-Names-Simple</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [UseRandomNameGenerator:true]
+      [RandomGridNamePattern:Squad Fighter GreekLetter RandomNumber]
+      [RandomGridNamePrefix:(VC)]
+      [ReplaceAntennaNameWithRandomizedName:Antenna]
+    </Description>
+  </EntityComponent>
+</EntityComponents>
+</Definitions>

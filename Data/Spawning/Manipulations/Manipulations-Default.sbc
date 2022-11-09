@@ -14,6 +14,7 @@
       [ManipulationProfiles:Manipulation-Void-DisposeBeacons]
       [ManipulationProfiles:Manipulation-Void-HydroThrust]
       [ManipulationProfiles:Manipulation-Void-IonThrust]
+      [ManipulationProfiles:Manipulation-Void-Name-Prefix]      
       [ManipulationProfiles:Manipulation-Void-SmallBatteryNPC]
     </Description>
   </EntityComponent>
@@ -79,6 +80,19 @@
       [NpcHydroThrustForceMultiply:1]
       [NpcHydroThrustPowerMultiply:0.1]
       [RestrictNpcIonThrust:true]
+    </Description>
+  </EntityComponent>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id>
+      <TypeId>Inventory</TypeId>
+      <SubtypeId>Manipulation-Void-Name-Prefix</SubtypeId>
+    </Id>
+    <Description>
+      [MES Manipulation]
+
+      [UseRandomNameGenerator:true]
+      [RandomGridNamePrefix:(VC)]
     </Description>
   </EntityComponent>
 
