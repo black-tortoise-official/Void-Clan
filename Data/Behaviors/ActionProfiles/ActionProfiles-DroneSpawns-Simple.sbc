@@ -14,7 +14,7 @@
       
       [SetWeaponsToMaxRange:true]
 
-      [SpawnEncounter:Value]
+      [SpawnEncounter:true]
       [Spawner:Void-Spawn-Drones-Simple-A]
       </Description>
     </EntityComponent>
