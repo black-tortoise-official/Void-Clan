@@ -10,8 +10,8 @@
       [RivalAI Spawn]
 
       [IgnoreSafetyChecks:true]
-      [MinDistance:550]
-      [MaxDistance:850]
+      [MinDistance:300]
+      [MaxDistance:600]
       [MaxSpawns:1]
       [SpawningType:SpaceCargoShip]
       [SpawnGroups:Void-Drones-Simple-A-SG]
