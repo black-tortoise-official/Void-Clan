@@ -9,7 +9,7 @@
       <Description>
       [RivalAI Spawn]
 
-      [IgnoreSafetyChecks:false]
+      [IgnoreSafetyChecks:true]
       [MinDistance:550]
       [MaxDistance:850]
       [MaxSpawns:1]

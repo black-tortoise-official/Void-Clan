@@ -13,6 +13,7 @@
       [Author:Spectral Voice]
       [BroadcastChatType:Chat]
       [BroadcastRandomly:false]
+      [Chance:100]
       [ChatMessages:Organic life detected in {Faction} space!]
       [ChatMessages:{GridName} to launch squadron and neutralize organic lifeforms.]
       [Color:Red]

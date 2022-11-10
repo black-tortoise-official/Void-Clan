@@ -11,6 +11,8 @@
       
       [Actions:Void-Action-DroneSpawn-Simple]
       [MaxActions:1]
+      [MinCooldownMs:60000]
+      [MaxCooldownMs:120000]
       [StartsReady:true]
       [TargetDistance:4200]
       [Type:PlayerNear]
