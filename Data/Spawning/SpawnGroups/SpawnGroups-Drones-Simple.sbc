@@ -11,7 +11,10 @@
         
         [FactionOverride:VOID]
         [ReplenishSystems:true]
+        [RivalAiSpawn:true]
+        [RivalAiReplaceRemoteControl:true] 
         [UseFirstConditionsAsPersistent:true]
+        [UseRivalAi:true]
 
         [ManipulationGroups:ManipulationGroup-Void-Default]
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
