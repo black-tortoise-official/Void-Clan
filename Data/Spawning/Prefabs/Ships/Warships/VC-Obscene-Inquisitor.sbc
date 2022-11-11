@@ -1644,6 +1644,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
+              <ContainerType>MES-ContainerTypes-AdvancedAmmo-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>LargeBlockLargeContainer</SubtypeName>
@@ -1676,6 +1677,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>2</NumberInGrid>
+              <ContainerType>MES-ContainerTypes-AdvancedIngots-3</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
               <SubtypeName>LargeBlockLargeGeneratorWarfare2</SubtypeName>
@@ -1847,6 +1849,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
+              <ContainerType>MES-ContainerTypes-AdvancedIngots-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>Window1x1FlatInv</SubtypeName>
@@ -7184,14 +7187,14 @@
               <ColorMaskHSV x="0" y="-0.8" z="0" />
               <SkinSubtypeId>Neon_Colorable_Lights</SkinSubtypeId>
               <ShareMode>Faction</ShareMode>
-              <CustomName>Antenna Obscene Inquisitor</CustomName>
+              <CustomName>Antenna</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>17999.998</BroadcastRadius>
+              <BroadcastRadius>10000</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
