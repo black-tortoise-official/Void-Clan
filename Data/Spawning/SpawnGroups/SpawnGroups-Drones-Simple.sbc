@@ -11,9 +11,6 @@
         
         [FactionOverride:VOID]
         [ReplenishSystems:true]
-        [RivalAiSpawn:true]
-        [RivalAiSpaceSpawn:true]
-        [RivalAiReplaceRemoteControl:true] 
         [UseFirstConditionsAsPersistent:true]
         [UseRivalAi:true]
 
@@ -21,7 +18,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Servant">
           <Behaviour>Behavior-Void-DroneFighter-Simple</Behaviour>

@@ -53,8 +53,7 @@
       <Description>
         [MES Spawn Conditions]
 
-        [SpaceCargoShip:true]
-        [LunarCargoShip:true]
+        [DroneEncounter:true]
 
         [FactionOwner:VOID]
 
