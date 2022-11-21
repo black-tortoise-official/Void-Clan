@@ -17,8 +17,8 @@
         [ChatData:Void-ChatProfile-Presence-Simple]
       </Description>
     </EntityComponent>
-    <!--
 
+    <!--
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
@@ -33,6 +33,19 @@
         [IgnoreReceiverAntennaRequirement:true]
       </Description>
     </EntityComponent>
+  
     -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Shared-FighterPresence-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-FighterPresence-Simple]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

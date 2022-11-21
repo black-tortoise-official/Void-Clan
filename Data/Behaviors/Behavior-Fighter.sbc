@@ -25,6 +25,8 @@
       [UseAmmoReplenish:true]
       [AmmoReplenishClipAmount:15]
       [MaxAmmoReplenishments:30]
+
+      [Triggers:Void-Trigger-Shared-FighterPresence-Simple]
       </Description>
     </EntityComponent>
 

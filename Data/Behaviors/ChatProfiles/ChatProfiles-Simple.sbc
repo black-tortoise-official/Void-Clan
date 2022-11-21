@@ -44,6 +44,47 @@
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-ChatProfile-FighterPresence-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Pilot]
+        [Color:Red]
+
+        [ChatMessages: Destroy all organic lifeforms!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Erase all life-matter entities in this sector.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Annihilate all enemies!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: An intrusion into Void space must be eradicated.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Prepare to become one with the Void...]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: All hostile entities are to be nullified!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
           <TypeId>Inventory</TypeId>
           <SubtypeId>Void-ChatProfile-DroneSpawn-Simple-A</SubtypeId>
       </Id>
