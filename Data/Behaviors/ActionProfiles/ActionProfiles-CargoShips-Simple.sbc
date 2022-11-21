@@ -63,5 +63,52 @@
         [AutopilotProfile:Primary]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-CargoShip-ShipDamage-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:30]
+
+        [CancelWaitingAtWaypoint:true]
+        [SwitchToNextWaypoint:true]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:Void-Action-CargoShip-ReturnToSpeed-Simple]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:Void-Action-CargoShip-ReturnToSpeed-Simple]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-CargoShip-ReturnToSpeed-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:-1]
+
+        [CancelWaitingAtWaypoint:true]
+        [SwitchToNextWaypoint:true]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Void-Action-CargoShip-ReturnToSpeed-Simple]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>
