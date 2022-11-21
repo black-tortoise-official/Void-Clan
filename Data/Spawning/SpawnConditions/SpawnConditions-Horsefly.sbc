@@ -44,5 +44,27 @@
         [UseSignalRequirement:false]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SpawnCondition-Void-Horsefly-Backup-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [MES Spawn Conditions]
+
+        [SpaceCargoShip:true]
+        [LunarCargoShip:true]
+
+        [FactionOwner:VOID]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:300]
+        [ThreatScoreMinimum:80]
+
+        [MinSpawnFromWorldCenter:-1]
+        [UseSignalRequirement:false]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

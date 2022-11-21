@@ -42,5 +42,27 @@
       [Triggers:Void-Trigger-DroneSpawn-Simple]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Behavior-Void-Horsefly-Backup-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Horsefly]
+
+      [RivalAI Weapons]
+
+      [UseStaticGuns:false]
+      [UseTurrets:true]
+
+      [UseAmmoReplenish:true]
+      [AmmoReplenishClipAmount:30]
+      [MaxAmmoReplenishments:50]
+
+      [Triggers:Void-Trigger-FighterSpawn-Simple]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

@@ -34,7 +34,7 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Enforcer-Solo-SG</SubtypeId>
+        <SubtypeId>Void-Enforcer-Backup-SG</SubtypeId>
       </Id>
       <Description>
         [Modular Encounters SpawnGroup]
@@ -44,13 +44,13 @@
         [UseFirstConditionsAsPersistent:true]
 
         [ManipulationGroups:ManipulationGroup-Void-Default]
-        [SpawnConditionsProfiles:SpawnCondition-Void-Horsefly-Simple]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Horsefly-Backup-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Empty-Enforcer">
-          <Behaviour>Behavior-Void-Horsefly-Simple</Behaviour>
+          <Behaviour>Behavior-Void-Horsefly-Backup-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
