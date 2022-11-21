@@ -18,5 +18,23 @@
       [Spawner:Void-Spawn-Fighter-Simple-A]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Void-Action-FighterSquadSpawn-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      
+      [UseChatBroadcast:true]
+      [ChatData:Void-ChatProfile-FighterPresence-Simple]
+      
+      [SetWeaponsToMaxRange:true]
+
+      [SpawnEncounter:true]
+      [Spawner:Void-Spawn-FighterSquad-Simple-A]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

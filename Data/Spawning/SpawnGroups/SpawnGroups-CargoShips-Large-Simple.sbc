@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
-    <!--
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
@@ -15,7 +14,7 @@
         [UseFirstConditionsAsPersistent:true]
 
         [ManipulationGroups:ManipulationGroup-Void-Default]
-        [SpawnConditionsProfiles:SpawnCondition-Void-Horsefly-Simple]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Horsefly-Backup-Simple]
       </Description>
       <IsPirate>true</IsPirate>
       <Frequency>4.0</Frequency>
@@ -31,6 +30,5 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
-    -->
   </SpawnGroups>
 </Definitions>

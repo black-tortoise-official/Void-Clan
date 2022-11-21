@@ -10,8 +10,6 @@
       [RivalAI Spawn]
 
       [IgnoreSafetyChecks:true]
-      [MinDistance:600]
-      [MaxDistance:1000]
       [MaxSpawns:1]
       [RelativeSpawnOffset:{X:0.0 Y:100.0 Z:-300.0}]
       [RelativeSpawnVelocity:{X:0.0 Y:0.0 Z:25.0}]
@@ -20,6 +18,31 @@
       [SpawnGroups:Void-Eliminator-SG]
       [SpawnGroups:Void-Eraser-SG]
       [SpawnGroups:Void-Nullifier-SG]
+      [SpawnMinCooldown:10]
+      [SpawnMaxCooldown:60]
+      [StartsReady:true]
+      [UseRelativeSpawnPosition:true]
+      [UseSpawn:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Void-Spawn-FighterSquad-Simple-A</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+
+      [IgnoreSafetyChecks:true]
+      [MaxSpawns:1]
+      [RelativeSpawnOffset:{X:0.0 Y:100.0 Z:-800.0}]
+      [RelativeSpawnVelocity:{X:0.0 Y:0.0 Z:50.0}]
+      [SpawningType:SpaceCargoShip]
+      [SpawnGroups:Void-Zero-Squad-SG]
+      [SpawnGroups:Void-Eraser-Squad-SG]
+      [SpawnGroups:Void-Eliminator-Squad-SG]
+      [SpawnGroups:Void-Nullifier-Squad-SG]
       [SpawnMinCooldown:10]
       [SpawnMaxCooldown:60]
       [StartsReady:true]

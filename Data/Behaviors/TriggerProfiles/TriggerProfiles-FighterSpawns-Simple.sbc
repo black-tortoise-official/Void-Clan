@@ -19,5 +19,24 @@
       [UseTrigger:true]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Void-Trigger-FighterSquadSpawn-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+      
+      [Actions:Void-Action-FighterSquadSpawn-Simple]
+      [MaxActions:1]
+      [MinCooldownMs:60000]
+      [MaxCooldownMs:60001]
+      [StartsReady:true]
+      [TargetDistance:2000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

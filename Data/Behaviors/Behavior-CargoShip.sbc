@@ -26,9 +26,10 @@
         [Triggers:Void-Trigger-CargoShip-ReturnToDespawn-Simple]
         [Triggers:Void-Trigger-CargoShip-ShipDamage-Simple]
         [Triggers:Void-Trigger-CargoShip-ReturnToSpeed-Simple]
-        [Triggers:Void-Trigger-Shared-Presence-Simple]
         [Triggers:Void-Trigger-CargoShip-ProcessEscortRequest-Simple]
         [Triggers:Void-Trigger-CargoShip-StationAssistDirect-Simple]
+        [Triggers:Void-Trigger-FighterSquadSpawn-Simple]
+        [Triggers:Void-Trigger-Shared-Presence-Simple]
       </Description>
     </EntityComponent>
 

@@ -226,6 +226,57 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Eliminator-Squad-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [ManipulationGroups:ManipulationGroup-Void-Fighter-Squad-Names-Simple]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Squad-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Eliminator">
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>-250.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+
+        <Prefab SubtypeId="VC-Zero">
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
+          <Position>
+            <X>200.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+
+        <Prefab SubtypeId="VC-Zero">
+          <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
+          <Position>
+            <X>-200.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>Void-Nullifier-Squad-SG</SubtypeId>
       </Id>
       <Description>
@@ -246,7 +297,7 @@
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
           <Position>
             <X>0.0</X>
-            <Y>0.0</Y>
+            <Y>-100.0</Y>
             <Z>-100.0</Z>
           </Position>
           <Speed>50</Speed>
