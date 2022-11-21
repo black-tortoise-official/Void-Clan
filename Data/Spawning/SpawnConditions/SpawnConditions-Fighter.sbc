@@ -38,13 +38,14 @@
 
         [UseThreatLevelCheck:true]
         [ThreatLevelCheckRange:300]
-        [ThreatScoreMinimum:90]
+        [ThreatScoreMinimum:80]
 
         [MinSpawnFromWorldCenter:-1]
         [UseSignalRequirement:false]
       </Description>
     </EntityComponent>
 
+    <!--
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
@@ -64,6 +65,7 @@
         [MinSpawnFromWorldCenter:-1]
         [UseSignalRequirement:false]
       </Description>
-    </EntityComponent>
+    </EntityComponent> 
+    -->
   </EntityComponents>
 </Definitions>

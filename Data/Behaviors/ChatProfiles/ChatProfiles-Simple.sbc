@@ -9,18 +9,65 @@
       <Description>
       [RivalAI Chat]
       
-      [AllowDuplicatedMessages:false]
       [Author:Spectral Voice]
       [BroadcastChatType:Chat]
       [BroadcastRandomly:false]
       [Chance:100]
-      [ChatMessages: Organic life detected in our space!]
+      [ChatMessages: Organic life detected in our space! Dispatch attack drones!]
       [Color:Red]
-      [MinTime:1]
-      [MaxTime:3]
       [MaxChats:1]
       [StartsReady:true]
       [UseChat:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-ChatProfile-CargoShip-AggressionSwitch-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+    
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Navigator]
+        [Color:Red]
+    
+        [ChatMessages: Light-matter consciousness inhabiting Void space will not be tolerated.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+    
+        [ChatMessages: Organic life detected. Retaliatory strike authorized.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-ChatProfile-CargoShip-PassiveSwitch-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Navigator]
+        [Color:Red]
+
+        [ChatMessages: Light-matter consciousness appears to be in retreat. Resuming original course.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Organic life moving out of sensor range. Disengaging and resuming mission.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
       </Description>
     </EntityComponent>
   </EntityComponents>

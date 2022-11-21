@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
+    <!--
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Enforcer-Solo-SG</SubtypeId>
+        <SubtypeId>Void-Mindless-Observer-Reinforced-SG</SubtypeId>
       </Id>
       <Description>
         [Modular Encounters SpawnGroup]
@@ -17,10 +18,10 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Horsefly-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Empty-Enforcer">
-          <Behaviour>Behavior-Void-Horsefly-Simple</Behaviour>
+          <Behaviour>Behavior-Void-CargoShip-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>
@@ -30,5 +31,6 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
+    -->
   </SpawnGroups>
 </Definitions>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-CargoShip-AggressionSwitch-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+    
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-CargoShip-AggressionSwitch-Simple]
+    
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Horsefly]
+    
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
+    
+        [DisableTriggers:true]
+        [DisableTriggerNames:Void-Trigger-CargoShip-AggressionSwitch-Simple]
+    
+        [EnableTriggers:true]
+        [EnableTriggerNames:Void-Trigger-CargoShip-PassiveSwitch-Simple]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-CargoShip-PassiveSwitch-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-CargoShip-PassiveSwitch-Simple]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:CargoShip]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Void-Trigger-CargoShip-PassiveSwitch-Simple]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:Void-Trigger-CargoShip-AggressionSwitch-Simple]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
