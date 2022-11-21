@@ -110,5 +110,17 @@
         [DisableTriggerNames:Void-Action-CargoShip-ReturnToSpeed-Simple]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-CargoShip-ProcessEscortRequest-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [AssignEscortFromCommand:true]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

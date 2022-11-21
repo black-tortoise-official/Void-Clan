@@ -102,5 +102,25 @@
         [Actions:Void-Action-CargoShip-ReturnToSpeed-Simple]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-CargoShip-ProcessEscortRequest-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:Void-Command-Escort-Request]
+
+        [StartsReady:true]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:0]
+        [MaxActions:-1]
+        [Actions:Void-Action-CargoShip-ProcessEscortRequest-Simple]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

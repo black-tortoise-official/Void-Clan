@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Escort-RequestEscortSlot-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:Void-Command-Escort-RequestEscortSlot-Simple]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Void-Trigger-Escort-RequestEscortSlot-Simple]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Command-Escort-RequestEscortSlot-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Command]
+
+        [CommandCode:Void-Command-Escort-Request]
+        [MatchSenderReceiverOwners:true]
+        [RequestEscortSlot:true]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

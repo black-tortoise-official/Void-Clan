@@ -7,7 +7,6 @@
         <SubtypeId>Behavior-Void-CargoShip-Simple</SubtypeId>
       </Id>
        <!-- 
-        [Triggers:Parallax-Trigger-ProcessEscortRequest]
         [Triggers:Parallax-Trigger-StationAssistDirect]
 
         [TriggerGroups:Parallax-TriggerGroup-Interactions]
@@ -29,6 +28,7 @@
         [Triggers:Void-Trigger-CargoShip-ReturnToDespawn-Simple]
         [Triggers:Void-Trigger-CargoShip-ShipDamage-Simple]
         [Triggers:Void-Trigger-CargoShip-ReturnToSpeed-Simple]
+        [Triggers:Void-Trigger-CargoShip-ProcessEscortRequest-Simple]
       </Description>
 
     </EntityComponent>
