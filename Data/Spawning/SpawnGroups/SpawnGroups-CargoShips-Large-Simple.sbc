@@ -19,7 +19,7 @@
       <IsPirate>true</IsPirate>
       <Frequency>4.0</Frequency>
       <Prefabs>
-        <Prefab SubtypeId="VC-Empty-Enforcer">
+        <Prefab SubtypeId="VC-Mindless-Observer">
           <Behaviour>Behavior-Void-CargoShip-Simple</Behaviour>
           <Position>
             <X>0.0</X>
