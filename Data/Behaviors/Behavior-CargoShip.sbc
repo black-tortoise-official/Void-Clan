@@ -6,18 +6,20 @@
         <TypeId>Inventory</TypeId>
         <SubtypeId>Behavior-Void-CargoShip-Simple</SubtypeId>
       </Id>
-       <!-- 
-        [TargetData:Parallax-Targeting-CargoShip]
-        [OverrideTargetData:Parallax-Targeting-CargoShip-Override]
-      -->
       <Description>
         [RivalAI Behavior]
 
         [BehaviorName:CargoShip]
 
         [AutopilotData:AutoPilot-Void-CargoShip]
+        [SecondaryAutopilotData:AutoPilot-Void-CargoShip-B]
+        [TertiaryAutopilotData:AutoPilot-Void-CargoShip-Attack]
+
         [EscortOffsets:{X:-200 Y:0 Z:0}]
         [EscortOffsets:{X:200 Y:0 Z:0}]
+
+        [TargetData:Void-Targeting-CargoShip-Simple]
+        [OverrideTargetData:Void-Targeting-CargoShip-Override-Simple]
 
         [Triggers:Void-Trigger-CargoShip-AggressionSwitch-Simple]
         [Triggers:Void-Trigger-CargoShip-PassiveSwitch-Simple]
@@ -28,17 +30,14 @@
         [Triggers:Void-Trigger-CargoShip-ProcessEscortRequest-Simple]
         [Triggers:Void-Trigger-CargoShip-StationAssistDirect-Simple]
       </Description>
-
     </EntityComponent>
 
-    <!--
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Parallax-Targeting-CargoShip</SubtypeId>
+        <SubtypeId>Void-Targeting-CargoShip-Simple</SubtypeId>
       </Id>
       <Description>
-
         [RivalAI Target]
 
         [UseCustomTargeting:true]
@@ -55,20 +54,15 @@
         [Owners:Player]
         [Owners:NPC]
         [Relations:Enemy]
-
-
-
       </Description>
-
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>Parallax-Targeting-CargoShip-Override</SubtypeId>
+        <SubtypeId>Void-Targeting-CargoShip-Override-Simple</SubtypeId>
       </Id>
       <Description>
-
         [RivalAI Target]
 
         [UseCustomTargeting:true]
@@ -85,47 +79,7 @@
         [Owners:Player]
         [Owners:NPC]
         [Relations:Enemy]
-
-
-
       </Description>
-
     </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>Parallax-AutoPilot-CargoShip-B</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Autopilot]
-
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:50]
-        [FlyLevelWithGravity:true]
-        [ForceDampenersEnabled:true]
-
-        [IdealMinSpeed:12]
-        [IdealMaxSpeed:25]
-        [MaxSpeedTolerance:3]
-
-        [MinimumPlanetAltitude:50]
-        [IdealPlanetAltitude:100]
-
-        [WaypointTolerance:50]
-        [WaypointWaitTimeTrigger:60]
-
-        [MinAngleForLeveledDescent:135]
-        [MaxAngleForLeveledAscent:90]
-
-        [UseVelocityCollisionEvasion:false]
-        [LimitRotationSpeed:true]
-        [MaxRotationMagnitude:0.2]
-
-      </Description>
-
-    </EntityComponent>
-  -->
   </EntityComponents>
 </Definitions>

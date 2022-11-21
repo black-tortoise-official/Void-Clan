@@ -13,8 +13,7 @@
         [Type:PlayerNear]
 
         [TargetDistance:1000]
-        [MaxPlayerReputation:-1450]
-
+        
         [StartsReady:true]
         [MaxActions:-1]
         [Actions:Void-Action-CargoShip-AggressionSwitch-Simple]
