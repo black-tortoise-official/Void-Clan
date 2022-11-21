@@ -122,5 +122,27 @@
         [AssignEscortFromCommand:true]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-CargoShip-StationAssistDirect-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-Chat-CargoShip-StationAssistDirect-Simple]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Horsefly]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Tertiary]
+
+        [InheritLastAttackerFromCommand:true]
+        [SwitchTargetToDamager:true]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

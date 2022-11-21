@@ -7,8 +7,7 @@
         <SubtypeId>Behavior-Void-CargoShip-Simple</SubtypeId>
       </Id>
        <!-- 
-        [Triggers:Parallax-Trigger-StationAssistDirect]
-
+        // The Escort Request stuff is likely in here:
         [TriggerGroups:Parallax-TriggerGroup-Interactions]
 
         [TargetData:Parallax-Targeting-CargoShip]
@@ -29,6 +28,7 @@
         [Triggers:Void-Trigger-CargoShip-ShipDamage-Simple]
         [Triggers:Void-Trigger-CargoShip-ReturnToSpeed-Simple]
         [Triggers:Void-Trigger-CargoShip-ProcessEscortRequest-Simple]
+        [Triggers:Void-Trigger-CargoShip-StationAssistDirect-Simple]
       </Description>
 
     </EntityComponent>

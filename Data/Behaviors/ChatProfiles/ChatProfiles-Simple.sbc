@@ -9,7 +9,7 @@
       <Description>
       [RivalAI Chat]
       
-      [Author:Spectral Voice]
+      [Author:Spectral Pilot]
       [BroadcastChatType:Chat]
       [BroadcastRandomly:false]
       [Chance:100]
@@ -66,6 +66,56 @@
         [BroadcastChatType:Chat]
 
         [ChatMessages: Organic life moving out of sensor range. Disengaging and resuming mission.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Chat-CargoShip-StationAssistDirect-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Navigator]
+        [Color:Red]
+
+        [ChatMessages: The {AntennaName} is preparing to defend Void space.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: The {AntennaName} responding to call for reinforcements.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-ChatProfile-Station-StationDamage-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Attendant]
+        [Color:Red]
+
+        [ChatMessages: Consciousness of light-matter origin has infringed upon Void space. All nearby vessels must commence with defense!]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Organic lifeforms threaten our installation. Reinforcements are requested.]
         [ChatAudio:ArcHudGPSNotification1]
         [BroadcastChatType:Chat]
       </Description>

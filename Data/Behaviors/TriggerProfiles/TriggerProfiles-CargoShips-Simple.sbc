@@ -122,5 +122,23 @@
         [Actions:Void-Action-CargoShip-ProcessEscortRequest-Simple]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-CargoShip-StationAssistDirect-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [CommandReceiveCode:Void-Command-Station-Damage-Simple]
+
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:Void-Action-CargoShip-StationAssistDirect-Simple]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>
