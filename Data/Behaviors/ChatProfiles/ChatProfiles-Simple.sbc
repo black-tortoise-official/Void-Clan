@@ -3,6 +3,47 @@
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-ChatProfile-Presence-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Navigator]
+        [Color:Red]
+
+        [ChatMessages: Jump into new sector complete. Proceeding with local route.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Arrived in sector at expected time. Adjusting navigation for examination of nearby space.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Jump completed. Engaging sector scan.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Arrival into expected sector. Claiming new region as Void space.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Void Clan have claimed this region of space. All organic life must depart or be disintegrated.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Void reconaissance has arrived. All light-matter entities must be captured or destroyed.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
           <TypeId>Inventory</TypeId>
           <SubtypeId>Void-ChatProfile-DroneSpawn-Simple-A</SubtypeId>
       </Id>

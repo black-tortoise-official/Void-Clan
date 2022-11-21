@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <!-- 
+      [BroadcastCommandProfiles:true]
+      [CommandProfileIds:Parallax-Command-Presence]
+    -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Shared-Presence-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-Presence-Simple]
+      </Description>
+    </EntityComponent>
+    <!--
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Parallax-Command-Presence</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Command]
+        [CommandCode:Parallax-Command-Presence]
+        [SendSelfAsTargetEntityId:true]
+        [SingleRecipient:false]
+        [MatchSenderReceiverOwners:false]
+        [IgnoreReceiverAntennaRequirement:true]
+      </Description>
+    </EntityComponent>
+    -->
+  </EntityComponents>
+</Definitions>
