@@ -47,5 +47,18 @@
         [ChatData:Void-ChatProfile-FighterPresence-Simple]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Shared-StationPresence-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-StationPresence-Simple]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

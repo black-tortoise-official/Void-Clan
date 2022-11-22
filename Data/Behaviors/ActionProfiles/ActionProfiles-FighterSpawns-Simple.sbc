@@ -21,8 +21,8 @@
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Void-Action-FighterSquadSpawn-Simple</SubtypeId>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-FighterSquadSpawn-Simple</SubtypeId>
       </Id>
       <Description>
       [RivalAI Action]
@@ -34,6 +34,24 @@
 
       [SpawnEncounter:true]
       [Spawner:Void-Spawn-FighterSquad-Simple-A]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-DroneFighterSpawn-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+
+      [UseChatBroadcast:true]
+      [ChatData:Void-ChatProfile-Drones-Summoned-Simple-A]
+      
+      [SetWeaponsToMaxRange:true]
+
+      [SpawnEncounter:true]
+      [Spawner:Void-Spawn-DroneFighters-Simple-A]
       </Description>
     </EntityComponent>
   </EntityComponents>

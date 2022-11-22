@@ -45,11 +45,30 @@
       </Description>
     </EntityComponent>
 
-    <!--
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>SpawnCondition-Void-Fighter-Drones-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [MES Spawn Conditions]
+
+        [SpaceCargoShip:true]
+        [LunarCargoShip:true]
+
+        [FactionOwner:VOID]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:5000]
+        [ThreatScoreMinimum:40]
+      </Description>
+    </EntityComponent>
+
+    <!--
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SpawnCondition-Void-Drones-Simple</SubtypeId>
       </Id>
       <Description>
         [MES Spawn Conditions]
@@ -65,7 +84,7 @@
         [MinSpawnFromWorldCenter:-1]
         [UseSignalRequirement:false]
       </Description>
-    </EntityComponent> 
+    </EntityComponent>
     -->
   </EntityComponents>
 </Definitions>

@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
-    <!--
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Void-Drones-Simple-A-SG</SubtypeId>
+        <SubtypeId>Void-DroneFighters-Simple-A-SG</SubtypeId>
       </Id>
       <Description>
         [Modular Encounters SpawnGroup]
@@ -19,7 +18,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>4.0</Frequency>
+      <Frequency>0.1</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Servant">
           <Behaviour>Behavior-Void-DroneFighter-Simple</Behaviour>
@@ -52,6 +51,5 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
-    -->
   </SpawnGroups>
 </Definitions>

@@ -3,8 +3,8 @@
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Void-Trigger-FighterSpawn-Simple</SubtypeId>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-FighterSpawn-Simple</SubtypeId>
       </Id>
       <Description>
       [RivalAI Trigger]
@@ -22,8 +22,28 @@
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>Void-Trigger-FighterSquadSpawn-Simple</SubtypeId>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-FighterSpawn-Station-5K-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+      
+      [Actions:Void-Action-Station-Request-Fighter-Chat-Simple]
+      [Actions:Void-Action-FighterSpawn-Simple]
+      [MaxActions:1]
+      [MinCooldownMs:180000]
+      [MaxCooldownMs:180001]
+      [StartsReady:true]
+      [TargetDistance:5000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-FighterSquadSpawn-Simple</SubtypeId>
       </Id>
       <Description>
       [RivalAI Trigger]
@@ -35,6 +55,45 @@
       [StartsReady:true]
       [TargetDistance:2000]
       [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-FighterSquadSpawn-Station-2_5K-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+      
+      [Actions:Void-Action-Station-Request-FighterSquad-Chat-Simple]
+      [Actions:Void-Action-FighterSquadSpawn-Simple]
+      [MaxActions:3]
+      [MinCooldownMs:600000]
+      [MaxCooldownMs:600001]
+      [StartsReady:true]
+      [TargetDistance:2500]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Trigger-FighterDroneSpawn-Station-Timer-Simple</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+      
+      [Actions:Void-Action-Station-Scout-DroneFighters-Chat-Simple]
+      [Actions:Void-Action-DroneFighterSpawn-Simple]
+      [MaxActions:-1]
+      [MinCooldownMs:600000]
+      [MaxCooldownMs:1800000]
+      [StartsReady:true]
+      [Type:Timer]
       [UseTrigger:true]
       </Description>
     </EntityComponent>
