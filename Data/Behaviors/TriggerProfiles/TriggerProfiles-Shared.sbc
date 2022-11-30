@@ -14,7 +14,7 @@
         [MinCooldownMs:3000]
         [MaxCooldownMs:3001]
         [StartsReady:false]
-        [MaxActions:-1]
+        [MaxActions:1]
         [Actions:Void-Action-Shared-Presence-Simple]
       </Description>
     </EntityComponent>
@@ -32,7 +32,7 @@
         [MinCooldownMs:3000]
         [MaxCooldownMs:3001]
         [StartsReady:false]
-        [MaxActions:-1]
+        [MaxActions:1]
         [Actions:Void-Action-Shared-FighterPresence-Simple]
       </Description>
     </EntityComponent>
@@ -50,7 +50,7 @@
         [MinCooldownMs:3000]
         [MaxCooldownMs:3001]
         [StartsReady:false]
-        [MaxActions:-1]
+        [MaxActions:1]
         [Actions:Void-Action-Shared-StationPresence-Simple]
       </Description>
     </EntityComponent>

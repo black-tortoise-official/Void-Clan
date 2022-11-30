@@ -69,7 +69,7 @@
       
       [Actions:Void-Action-Station-Request-FighterSquad-Chat-Simple]
       [Actions:Void-Action-FighterSquadSpawn-Simple]
-      [MaxActions:3]
+      [MaxActions:1]
       [MinCooldownMs:600000]
       [MaxCooldownMs:600001]
       [StartsReady:true]
@@ -92,7 +92,7 @@
       [MaxActions:-1]
       [MinCooldownMs:600000]
       [MaxCooldownMs:1800000]
-      [StartsReady:true]
+      [StartsReady:false]
       [Type:Timer]
       [UseTrigger:true]
       </Description>
