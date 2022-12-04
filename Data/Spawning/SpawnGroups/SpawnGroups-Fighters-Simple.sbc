@@ -17,7 +17,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>4.0</Frequency>
+      <Frequency>0.75</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Zero">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -47,7 +47,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>0.5</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eliminator">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -77,7 +77,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>0.5</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eraser">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -107,7 +107,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>0.25</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Nullifier">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -138,7 +138,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Squad-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>4.0</Frequency>
+      <Frequency>0.75</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Zero">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -189,7 +189,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Squad-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>0.5</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eraser">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -240,7 +240,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Squad-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>0.5</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Eliminator">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
@@ -291,7 +291,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Squad-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>0.25</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Nullifier">
           <Behaviour>Behavior-Void-Fighter-Simple</Behaviour>
