@@ -11,6 +11,22 @@
 
         [BehaviorName:Passive]
 
+        [Triggers:Void-Trigger-FighterSpawn-Station-Inf5K-Simple]
+        [Triggers:Void-Trigger-DroneFighterDefense-Station-Simple]
+        [Triggers:Void-Trigger-Shared-StationPresence-Simple]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Behavior-Void-Station-Fighters-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
         [Triggers:Void-Trigger-FighterDroneSpawn-Station-Timer-Simple]
         [Triggers:Void-Trigger-FighterSpawn-Station-5K-Simple]
         [Triggers:Void-Trigger-FighterSquadSpawn-Station-2_5K-Simple]

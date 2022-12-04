@@ -95,6 +95,31 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-ChatProfile-Station-Defense-DroneFighters-Chat-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [Author:Spectral Attendant]
+        [Color:Red]
+
+        [ChatMessages: Damage to station detected. Summon defense drones to inspect the perimeter.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages: Release drones to defend Void space! The station is taking damage.]
+        [ChatAudio:ArcHudGPSNotification1]
+        [BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
         <SubtypeId>Void-ChatProfile-Station-ScoutDroneFighters-Simple</SubtypeId>
       </Id>
       <Description>

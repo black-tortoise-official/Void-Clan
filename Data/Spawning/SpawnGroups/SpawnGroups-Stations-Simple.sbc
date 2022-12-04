@@ -4,6 +4,68 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Outpost-Base-Simple-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [ManipulationGroups:ManipulationGroup-Void-Station-Names-Simple]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Station-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Sm-Base">
+          <Behaviour>Behavior-Void-Station-Simple</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Outpost-Base-Simple-2-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [ManipulationGroups:ManipulationGroup-Void-Station-Names-Simple]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Station-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Sm-Base-2">
+          <Behaviour>Behavior-Void-Station-Simple</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>Void-Outpost-Simple-SG</SubtypeId>
       </Id>
       <Description>
@@ -21,7 +83,7 @@
       <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Sm-Outpost">
-          <Behaviour>Behavior-Void-Station-Simple</Behaviour>
+          <Behaviour>Behavior-Void-Station-Fighters-Simple</Behaviour>
           <Position>
             <X>0.0</X>
             <Y>0.0</Y>

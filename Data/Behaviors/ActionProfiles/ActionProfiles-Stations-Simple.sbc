@@ -30,6 +30,19 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Station-Defense-DroneFighters-Chat-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-Station-Defense-DroneFighters-Chat-Simple]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
         <SubtypeId>Void-Action-Station-Scout-DroneFighters-Chat-Simple</SubtypeId>
       </Id>
       <Description>
