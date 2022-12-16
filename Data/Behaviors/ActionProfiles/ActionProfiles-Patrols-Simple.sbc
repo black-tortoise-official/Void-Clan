@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Patrol-AggressionSwitch-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-Patrol-AggressionSwitch-Simple]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Fighter]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Secondary]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:-1]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Void-Action-Patrol-AggressionSwitch-Simple]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:Void-Action-Patrol-PassiveSwitch-Simple]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Patrol-PassiveSwitch-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:Void-ChatProfile-Patrol-PassiveSwitch-Simple]
+
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Patrol]
+
+        [ChangeAutopilotProfile:true]
+        [AutopilotProfile:Primary]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:Void-Trigger-Patrol-PassiveSwitch-Simple]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:Void-Trigger-Patrol-AggressionSwitch-Simple]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

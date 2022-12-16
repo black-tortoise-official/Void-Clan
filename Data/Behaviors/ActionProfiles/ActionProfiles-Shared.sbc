@@ -60,5 +60,17 @@
         [ChatData:Void-ChatProfile-StationPresence-Simple]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Action-Shared-UnStatic</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Action]
+
+        [SetGridToDynamic:true]
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

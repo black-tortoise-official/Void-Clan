@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Behavior-Patrol-Fighter-Simple-1</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+        [BehaviorName:Patrol]
+
+        [AutopilotData:Autopilot-Void-Patrol-Simple-A]
+        [SecondaryAutopilotData:Autopilot-Void-Patrol-Simple-B]
+
+        [TargetData:Void-Targeting-Patrol-Fighter-Simple]
+        [OverrideTargetData:Void-Targeting-Patrol-Fighter-Simple]
+
+        [Triggers:Void-Trigger-Patrol-AggressionSwitch-Simple]
+        [Triggers:Void-Trigger-Patrol-PassiveSwitch-Simple]
+        [Triggers:Void-Trigger-Shared-UnStatic]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Targeting-Patrol-Fighter-Simple</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Target]
+
+        [GetTargetBy:ClosestDistance]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+
+        [MaxDistance:2000]
+        [MaxExistingTargetDistance:3500]
+        
+        [Owners:Player]
+        [Owners:NPC]
+        [Relations:Enemy]
+        [Relations:Neutral]
+        [Target:PlayerAndGrid]
+        [UseCustomTargeting:true]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

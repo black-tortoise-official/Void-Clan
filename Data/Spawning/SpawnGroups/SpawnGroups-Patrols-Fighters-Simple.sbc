@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Zero-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Zero">
+          <Behaviour>Void-Behavior-Patrol-Fighter-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Eliminator-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Eliminator">
+          <Behaviour>Void-Behavior-Patrol-Fighter-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Eraser-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Eraser">
+          <Behaviour>Void-Behavior-Patrol-Fighter-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Nullifier-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Nullifier">
+          <Behaviour>Void-Behavior-Patrol-Fighter-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup> 
+  </SpawnGroups>
+</Definitions>
