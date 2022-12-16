@@ -47,7 +47,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Horsefly-Backup-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.75</Frequency>
+      <Frequency>0.25</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Empty-Enforcer">
           <Behaviour>Behavior-Void-Horsefly-Backup-Simple</Behaviour>
