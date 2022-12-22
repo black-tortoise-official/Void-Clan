@@ -11,10 +11,10 @@
         [BehaviorName:Patrol]
 
         [AutopilotData:Autopilot-Void-Patrol-Simple-A]
-        [SecondaryAutopilotData:Autopilot-Void-Patrol-Simple-B]
+          [SecondaryAutopilotData:Autopilot-Void-Patrol-Simple-B]
 
         [TargetData:Void-Targeting-Patrol-Fighter-Simple]
-        [OverrideTargetData:Void-Targeting-Patrol-Fighter-Simple]
+          [OverrideTargetData:Void-Targeting-Patrol-Fighter-Simple]
 
         [Triggers:Void-Trigger-Patrol-AggressionSwitch-Simple]
         [Triggers:Void-Trigger-Patrol-PassiveSwitch-Simple]
@@ -44,10 +44,10 @@
         [BehaviorName:Patrol]
 
         [AutopilotData:Autopilot-Void-Patrol-Simple-A]
-        [SecondaryAutopilotData:Autopilot-Void-Patrol-Simple-B]
+          [SecondaryAutopilotData:Autopilot-Void-Patrol-Simple-B]
 
         [TargetData:Void-Targeting-Patrol-Fighter-Simple]
-        [OverrideTargetData:Void-Targeting-Patrol-Fighter-Simple]
+          [OverrideTargetData:Void-Targeting-Patrol-Fighter-Simple]
 
         [Triggers:Void-Trigger-Patrol-AggressionSwitch-Simple]
         [Triggers:Void-Trigger-Patrol-PassiveSwitch-Simple]
