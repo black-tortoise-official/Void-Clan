@@ -19,6 +19,18 @@
         [Triggers:Void-Trigger-Patrol-AggressionSwitch-Simple]
         [Triggers:Void-Trigger-Patrol-PassiveSwitch-Simple]
         [Triggers:Void-Trigger-Shared-UnStatic]
+
+        [RivalAI Weapons]
+          [UseAmmoReplenish:true]
+            [AmmoReplenishClipAmount:15]
+            [MaxAmmoReplenishments:30]
+          [UseBarrageFire:true]
+            [MaxFireRateForBarrageWeapons:200]
+          [UseStaticGuns:true]
+            [MaxStaticWeaponRange:5000]
+          [UseTurrets:true]
+          [WeaponMaxAngleFromTarget:6]
+          [WeaponMaxBaseDistanceTarget:20]
       </Description>
     </EntityComponent>
 
@@ -42,12 +54,12 @@
         [Triggers:Void-Trigger-Shared-UnStatic]
 
         [RivalAI Weapons]
-          [AmmoReplenishClipAmount:50]
-          [MaxAmmoReplenishments:100]
-          [MaxStaticWeaponRange:5000]
           [UseAmmoReplenish:true]
+            [AmmoReplenishClipAmount:50]
+            [MaxAmmoReplenishments:100]
           [UseBarrageFire:false]
           [UseStaticGuns:true]
+            [MaxStaticWeaponRange:5000]
           [UseTurrets:true]
           [WeaponMaxAngleFromTarget:6]
           [WeaponMaxBaseDistanceTarget:20]
