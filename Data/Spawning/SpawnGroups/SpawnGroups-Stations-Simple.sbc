@@ -63,6 +63,11 @@
       </Prefabs>
     </SpawnGroup>
 
+    <!-- 
+        VC-Sm-Outpost is Medium/Difficult Grid Encounter 
+        Create easier grid and use VC-Sm-Outpost in
+        different spawngroup. 
+    -->
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
@@ -80,7 +85,7 @@
         [SpawnConditionsProfiles:SpawnCondition-Void-Station-Simple]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>4.0</Frequency>
+      <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="VC-Sm-Outpost">
           <Behaviour>Behavior-Void-Station-Fighters-Simple</Behaviour>
