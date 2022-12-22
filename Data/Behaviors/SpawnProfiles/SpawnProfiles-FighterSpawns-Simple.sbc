@@ -54,7 +54,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
           <TypeId>Inventory</TypeId>
-          <SubtypeId>Void-Spawn-DroneFighters-Simple-A</SubtypeId>
+          <SubtypeId>Void-Spawn-DroneFighter-Simple-A</SubtypeId>
       </Id>
       <Description>
       [RivalAI Spawn]
@@ -64,7 +64,9 @@
       [RelativeSpawnOffset:{X:100.0 Y:100.0 Z:-1000.0}]
       [RelativeSpawnVelocity:{X:0.0 Y:0.0 Z:50.0}]
       [SpawningType:SpaceCargoShip]
-      [SpawnGroups:Void-DroneFighters-Simple-A-SG]
+      [SpawnGroups:Void-Servant-Drone-Patrol-SG]
+      [SpawnGroups:Void-Minion-Drone-Patrol-SG]
+      [SpawnGroups:Void-Slave-Drone-Patrol-SG]
       [SpawnMinCooldown:10]
       [SpawnMaxCooldown:60]
       [StartsReady:true]

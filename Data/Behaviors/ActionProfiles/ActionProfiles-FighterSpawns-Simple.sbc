@@ -51,7 +51,7 @@
       [SetWeaponsToMaxRange:true]
 
       [SpawnEncounter:true]
-      [Spawner:Void-Spawn-DroneFighters-Simple-A]
+      [Spawner:Void-Spawn-DroneFighter-Simple-A]
       </Description>
     </EntityComponent>
   </EntityComponents>

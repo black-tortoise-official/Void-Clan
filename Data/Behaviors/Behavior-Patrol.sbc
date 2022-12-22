@@ -25,6 +25,38 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
+        <SubtypeId>Void-Behavior-Patrol-Drone-Simple-1</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+        [BehaviorName:Patrol]
+
+        [AutopilotData:Autopilot-Void-Patrol-Simple-A]
+        [SecondaryAutopilotData:Autopilot-Void-Patrol-Simple-B]
+
+        [TargetData:Void-Targeting-Patrol-Fighter-Simple]
+        [OverrideTargetData:Void-Targeting-Patrol-Fighter-Simple]
+
+        [Triggers:Void-Trigger-Patrol-AggressionSwitch-Simple]
+        [Triggers:Void-Trigger-Patrol-PassiveSwitch-Simple]
+        [Triggers:Void-Trigger-Shared-UnStatic]
+
+        [RivalAI Weapons]
+          [AmmoReplenishClipAmount:50]
+          [MaxAmmoReplenishments:100]
+          [MaxStaticWeaponRange:5000]
+          [UseAmmoReplenish:true]
+          [UseBarrageFire:false]
+          [UseStaticGuns:true]
+          [UseTurrets:true]
+          [WeaponMaxAngleFromTarget:6]
+          [WeaponMaxBaseDistanceTarget:20]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
         <SubtypeId>Void-Targeting-Patrol-Fighter-Simple</SubtypeId>
       </Id>
       <Description>

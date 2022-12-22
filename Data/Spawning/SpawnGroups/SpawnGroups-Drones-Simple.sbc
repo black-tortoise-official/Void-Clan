@@ -4,6 +4,99 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Servant-Drone-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [UseRivalAi:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Servant">
+          <Behaviour>Void-Behavior-Patrol-Drone-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Minion-Drone-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [UseRivalAi:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Minion">
+          <Behaviour>Void-Behavior-Patrol-Drone-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Void-Slave-Drone-Patrol-SG</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        
+        [FactionOverride:VOID]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [UseRivalAi:true]
+
+        [ManipulationGroups:ManipulationGroup-Void-Default]
+        [SpawnConditionsProfiles:SpawnCondition-Void-Fighter-Drones-Simple]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.1</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="VC-Slave">
+          <Behaviour>Void-Behavior-Patrol-Drone-Simple-1</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>50</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>Void-DroneFighters-Simple-A-SG</SubtypeId>
       </Id>
       <Description>
